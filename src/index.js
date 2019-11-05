@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import {Provider} from 'react-redux';
-import{createStore} from 'redux';
+import{createStore, applyMiddleware, compose} from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import reducers from './reducers';
 
-const store=createStore(reducers);
+const store = createStore(
+  reducers,
+  composeWithDevTools(applyMiddleware())
+);
 
 ReactDOM.render(
   <Provider store={store}>
