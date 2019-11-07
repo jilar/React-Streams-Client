@@ -9,7 +9,6 @@ const INITIAL_STATE={
 
 
 export default (state={}, action)=> {
-  console.log(state);
   switch (action.type){
     case CREATE_STREAM:
       //key interpolation syntax, finds key and updates value or creates new key
