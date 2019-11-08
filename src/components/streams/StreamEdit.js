@@ -14,6 +14,7 @@ class StreamEdit extends React.Component{
   }
 
   render(){
+    // initialValues passes values to redux from to show on StreamForm
     return (
       <div>
         <h3>Edit a Stream</h3>

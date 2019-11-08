@@ -32,6 +32,8 @@ class StreamForm extends React.Component{
   }
 
   //field component acts as middleman between redux store and form
+  //this.props.handleSubmit is a callback function provided by redux-form, our on submit gets called with whatever
+  //was in the form (formValues)
   render(){
     return (
       <form onSubmit={this.props.handleSubmit(this.onSubmit)} className='ui form error'>

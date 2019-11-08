@@ -6,7 +6,6 @@ import{createStore, applyMiddleware, compose} from 'redux';
 import reduxThunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import reducers from './reducers';
-import history from './history';
 
 const store = createStore(
   reducers,
