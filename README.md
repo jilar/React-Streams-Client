@@ -1,9 +1,9 @@
 React Streaming Video App art of React Education.
 
-React Act app that allows users to watch streams made by others or create thier own stream. App uses json-server dependency to act as  API server hosing a faux database. 
+React Act app that allows users to watch streams made by others or create thier own stream. App uses json-server dependency to act as  API server hosing a faux database. You will need to download and run the projects: React-Streams-APIserver and React-Streams-rtmpserver for app to work properly.
 
-App makes use of the following:
--React DevTool to help debug Redux Store
+App makes use of the following:\  
+-React DevTool to help debug Redux Store 
 -React Router for page navigation
 -Authentication and OAuth through Google Authentication Login.
 -Handing Forms and User input with Redux Form
